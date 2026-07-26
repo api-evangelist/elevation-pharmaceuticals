@@ -1,8 +1,24 @@
 aid: elevation-pharmaceuticals
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/elevation-pharmaceuticals.png
 name: Elevation Pharmaceuticals
-description: Elevation Pharmaceuticals is a company surfaced as a portfolio company of canaan-partners
-  and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the
-  enrichment pipeline.
+description: Elevation Pharmaceuticals was a San Diego specialty pharmaceutical company founded in 2008
+  by Cam Garner, Bill Gerhart, and Ahmet Tutuncu to develop next-generation aerosol/inhalation therapies
+  for chronic obstructive pulmonary disease (COPD). It raised a $30 million Series A in 2010 backed by
+  Canaan Partners, TPG Growth, Care Capital, and Mesa Verde Venture Partners, and was acquired by Sunovion
+  Pharmaceuticals in August 2012. The company is no longer independently operating; its domain now resolves
+  to Sunovion nameservers and it publishes no public API, developer portal, or developer surface. This
+  profile is retained in the API Evangelist network as a Canaan Partners portfolio record.
 url: https://raw.githubusercontent.com/api-evangelist/elevation-pharmaceuticals/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,14 +26,29 @@ x-backed-by:
 - canaan-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-acquired-by: sunovion-pharmaceuticals
+x-acquired-year: 2012
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Pharmaceuticals
+- Biotech
+- COPD
+- Respiratory
+- Drug Development
+- Acquired
+- Canaan Partners Portfolio
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
